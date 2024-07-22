@@ -18,11 +18,11 @@ Did you manage to implement the code from the Express documentation? Congratulat
 
 Delete all of your code, but not your comments. Try and write out your 'Hello World' server again from memory.
 
-## Part 5: Customising the server
+## Part 5: Customising the server ✅
 
 In the future, you'll probably want your servers to do more than send back some text to display on a webpage. Think about all the APIs we've used so far on the bootcamp, and dream for a moment about what kind of sweet API you could build yourself. Then, quickly ground those dreams in cold hard reality. Kidding! They can literally do anything you want them to.
 
 Customise your Express server:
 
 - Instead of sending the string with text "Hello World", send a JSON object with `message: 'Hello World'`. ✅
-- Add multiple request handlers at different paths, sending different JSON responses.
+- Add multiple request handlers at different paths, sending different JSON responses. ✅

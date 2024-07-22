@@ -1,4 +1,5 @@
 import helloWorld from "./hello-world.json" with { type: "json" };
+import household from "./smith-household.json" with { type: "json"};
 import express from "express"; // import the express modules using ES Module syntax
 const app = express(); // set a variable to store the express function to make accessing it later cleaner
 const port = 3000; // set the port for the server to be accessed from 
@@ -7,6 +8,11 @@ const port = 3000; // set the port for the server to be accessed from
 app.get("/", (req, res) => {
     // respond with a message
     res.send(helloWorld);
+})
+
+// creating a GET request handler when the household info is requested
+app.get("/household", (req, res) => {
+    res.json(household);
 })
 
 // creating a handler to open the port for access
